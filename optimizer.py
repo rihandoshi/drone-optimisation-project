@@ -96,7 +96,7 @@ if __name__ == "__main__":
     start = np.array([0,0,0,0], float)
     goal  = np.array([5,5,0,0], float)
 
-    obs = [ {"center":[2.5,2.5],"radius":1.0,"margin":0.1}]
+    obs = [ {"center":[2.5,2.5],"radius":1.0,"margin":0.1}, {"center":[3,4],"radius":0.25,"margin":0.1} ]
     X, U = solve_trajectory(start, goal, N=30, dt=0.1, obstacles=obs)
 
     plt.plot(X[:,0], X[:,1], marker='o')

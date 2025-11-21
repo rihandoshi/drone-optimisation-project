@@ -38,10 +38,7 @@ if __name__ == "__main__":
     x_start = read_vector("Enter START state (px py vx vy):", 4)
     x_goal  = read_vector("Enter GOAL  state (px py vx vy):", 4)
 
-    try:
-        dt = float(input("\nEnter time-step dt (default 0.1): ").strip())
-    except:
-        dt = 0.1
+    dt = 0.1
 
     obstacles = read_obstacles()
 

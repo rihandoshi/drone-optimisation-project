@@ -83,5 +83,17 @@ if __name__ == "__main__":
         plt.title("Drone Trajectory (User Input)")
         plt.show()
 
+        # Plot velocity components over time
+        # plt.figure()
+        # plt.plot(X_opt[:, 2], label='vx')
+        # plt.plot(X_opt[:, 3], label='vy')
+        # plt.title("Velocity Profile")
+        # plt.xlabel("Time step")
+        # plt.ylabel("Velocity")
+        # plt.legend()
+        # plt.grid(True)
+        # plt.show()
+
+
     except ImportError:
         print("matplotlib not installed — skipping plot.")

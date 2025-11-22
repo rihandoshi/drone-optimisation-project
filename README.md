@@ -103,3 +103,9 @@ Numerical gradients are computed via finite differences.
 ## Notes
 - The interactive runner `main.py` prints the final state and (if `matplotlib` is available) shows a plot of the resulting trajectory. If `matplotlib` is not installed the script will skip plotting and still print results.
 - The obstacle margin used by `main.py` is fixed to `0.1` for interactive entries; you can change this behavior by modifying `read_obstacles()` in `main.py`.
+
+## Team Members
+Team Name: Drone
+- Rihan Doshi (BT2024122)
+- Saanvi Choudhary (BT2024223)
+- Veda Chandavolu (BT2024257)

@@ -29,12 +29,10 @@ def get_system_matrices(dt):
 def obstacle_penalty(x_k, obstacles):
     """
     This Function computes squared penalty for violating any circular obstacle and 
-    
     returns the total penalty accumulated from all obstacles.
 
     x_k: [px, py, vx, vy]
     obstacles: list of dicts:{ "center": [cx, cy], "radius": r, "margin": m }
-    
     """
     if not obstacles:
         return 0.0
